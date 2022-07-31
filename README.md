@@ -9,10 +9,9 @@ Citations:
 
   Grégoire Cattan, Pedro L. C. Rodrigues, & Marco Congedo. (2018). EEG Alpha Waves dataset [Data set]. Zenodo. https://doi.org/10.5281/zenodo.2348892. 
 
+  J. J. Bird, A. Ekart, C. D. Buckingham, and D. R. Faria, “Mental emotional sentiment classification with an eeg-based brain-machine interface,” in The International Conference on Digital Image and Signal Processing (DISP’19), Springer, 2019.
 
   J. J. Bird, L. J. Manso, E. P. Ribiero, A. Ekart, and D. R. Faria, “A study on mental state classification using eeg-based brain-machine interface,”in 9th International Conference on Intelligent Systems, IEEE, 2018.
-
-  J. J. Bird, A. Ekart, C. D. Buckingham, and D. R. Faria, “Mental emotional sentiment classification with an eeg-based brain-machine interface,” in The International Conference on Digital Image and Signal Processing (DISP’19), Springer, 2019.
 
 
 
