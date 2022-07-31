@@ -36,7 +36,7 @@ public class StanleyMove : MonoBehaviour
         if (direction.x != 0 || direction.y != 0) {
             float angle = (Mathf.Atan2(direction.x, direction.z)-offsetAng)*Mathf.Rad2Deg;
             float smoothangle = Mathf.SmoothDampAngle(transform.eulerAngles.y, angle, ref turnvel, 0.1f);
-            transform.rotation = Quaternion.Euler(0, smoothangle, 0);
+            transform.rotation = Quaternion.Euler(-90, smoothangle, 0);
         }
 
         if (direction.magnitude > 0 || yvel != 0) {
@@ -46,11 +46,11 @@ public class StanleyMove : MonoBehaviour
         }
 
         if (Input.GetButtonDown("Sprint")) {
-            movespeed*=2;
+            movespeed*=1.5f;
         }
 
         if (Input.GetButtonUp("Sprint")) {
-            movespeed/=2;
+            movespeed/=1.5f;
         }
     }
 
