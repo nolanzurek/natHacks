@@ -5,10 +5,11 @@ using UnityEngine;
 [RequireComponent(typeof(MeshFilter))]
 public class MeshGenerator : MonoBehaviour
 {
-    //initilize the mesh, as well as the triangles and verticies that will be used to construct the mesh
+    //initilize the mesh, as well as the triangles and vertices that will be used to construct the mesh
     Mesh mesh;
     Vector3[] vertices;
     int[] triangles;
+    Vector3[] bumps;
 
     //initilize the vertex color storage for procedural terrain coloring
     Color[] colors;
@@ -23,9 +24,26 @@ public class MeshGenerator : MonoBehaviour
     float minTerrainHeight = 1000;
     float maxTerrainHeight = 0;
 
+    //sample data
+    int[] sampleData = new int[] {1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 1, 1, 1, 1, 1, 2, 2};
+    float[] sampleDataSmooth;
+
     // Start is called before the first frame update
     void Start()
     {
+
+        sampleDataSmooth = new float[sampleData.Length];
+
+        for(int i = 0; i < sampleData.Length; i++) {
+
+            float total = 0;
+            for(int j = i - 10; j < i + 10; j++) {
+                total += sampleData[(j + sampleData.Length)%(sampleData.Length)];
+            }
+            sampleDataSmooth[i] = total/20f;
+
+        }
+
         mesh = new Mesh();
         GetComponent<MeshFilter>().mesh = mesh;
 
@@ -34,6 +52,7 @@ public class MeshGenerator : MonoBehaviour
 
         //update the mesh as the game runs
         UpdateMesh();
+
     }
 
     void CreateShape()
@@ -55,7 +74,7 @@ public class MeshGenerator : MonoBehaviour
                 float minBoundedHeight = Mathf.Min(poweredHeight, .7f + .2f*Mathf.PerlinNoise(x*.5f + 1000, z*.5f + 1000));
                 //adds texture to the terrain by adding an additional layer of perin noise at a higher frequency
                 float roughHeight = 2f*minBoundedHeight + Mathf.PerlinNoise(x*.7f + 2000, z*.7f + 2000)*0.1f;
-                float height = roughHeight;
+                float height = roughHeight*3f;
 
                 //sets the current vertex
                 vertices[i] = new Vector3(x, height, z);
@@ -71,6 +90,15 @@ public class MeshGenerator : MonoBehaviour
                 i++;
 
 
+            }
+        }
+
+        bumps = new Vector3[(xSize + 1) * (zSize + 1)];
+
+        for(int i = 0, z = 0; z <= zSize; z++) {
+            for(int x = 0; x <= xSize; x++) {
+                bumps[i] = new Vector3(x, Mathf.PerlinNoise(x*.7f + 2000, z*.7f + 2000)*0.1f, z);
+                i++;
             }
         }
 
@@ -121,7 +149,16 @@ public class MeshGenerator : MonoBehaviour
     {
         mesh.Clear();
 
-        mesh.vertices = vertices;
+        Vector3[] heightTemp = new Vector3[(xSize + 1) * (zSize + 1)];
+
+        for(int i = 0, z = 0; z <= zSize; z++) {
+            for(int x = 0; x <= xSize; x++) {
+                heightTemp[i] = vertices[i] + (bumps[i] * sampleDataSmooth[((int)(Time.frameCount/12))%(sampleDataSmooth.Length)] * 4);
+                i++;
+            }
+        }
+
+        mesh.vertices = heightTemp;
         mesh.triangles = triangles;
         mesh.colors = colors;
 
@@ -133,7 +170,9 @@ public class MeshGenerator : MonoBehaviour
         meshCollider.sharedMesh = mesh;
     }
 
-    
+    void Update() {
+        UpdateMesh();
+    }
     
 
 }
