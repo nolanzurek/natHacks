@@ -30,7 +30,13 @@ public class MeshGenerator : MonoBehaviour
 
         for(int i = 0, z = 0; z <= zSize; z++) {
             for(int x = 0; x <= xSize; x++) {
-                vertices[i] = new Vector3(x, Mathf.PerlinNoise(x * .3f, z * .3f) * 2f, z);
+                float rawHeight = Mathf.PerlinNoise(x * .1f, z * .1f);
+                float offsetHeight = Mathf.Max(0, (rawHeight) - 0.35f);
+                float poweredHeight = offsetHeight * offsetHeight * offsetHeight * 15f;
+                float minBoundedHeight = Mathf.Min(poweredHeight, .7f + .2f*Mathf.PerlinNoise(x*.5f + 1000, z*.5f + 1000));
+                float roughHeight = minBoundedHeight + Mathf.PerlinNoise(x*.7f + 2000, z*.7f + 2000)*0.1f;
+                float height = roughHeight;
+                vertices[i] = new Vector3(x, height, z);
                 i++;
             }
         }
@@ -55,6 +61,9 @@ public class MeshGenerator : MonoBehaviour
             }
             vert++;
         }
+
+        
+
     }
 
     void UpdateMesh()
@@ -65,10 +74,9 @@ public class MeshGenerator : MonoBehaviour
         mesh.triangles = triangles;
 
         mesh.RecalculateNormals();
-
-        // mesh collider
-        mesh.RecalculateBounds();
-        MeshCollider meshCollider = gameObject.GetComponent<MeshCollider>();
-        meshCollider.sharedMesh = mesh;
     }
+
+    
+    
+
 }
