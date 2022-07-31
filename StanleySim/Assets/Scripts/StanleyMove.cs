@@ -1,19 +1,36 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class StanleyMove : MonoBehaviour
 {
-    float yvel;
-    float offsetAng = 1.6f;
-    bool grounded = true;
-    [SerializeField] float movespeed = 5f;
-    [SerializeField] float jumpvel = 5f;
+    private float turnvel;
+    private float yvel;
+    private float offsetAng = 1.6f;
+    private bool grounded = true;
+
+    [Header("Movement Settings")]
+    [SerializeField] private float movespeed = 5f;
+    [SerializeField] private float jumpvel = 5f;
+
+    [Header("Component Access")]
     [SerializeField] Transform cam;
     [SerializeField] CharacterController charControl;
     [SerializeField] Transform gc;
     [SerializeField] LayerMask terrain;
-    float turnvel;
+    [SerializeField] Image staminaBar;
+    [SerializeField] CanvasGroup canvas;
+
+    [Header("Stamina Parameters")]
+    [SerializeField] private float maxStamina = 100f;
+    [SerializeField] private float sprintCost = 0.25f;
+    [SerializeField] private float regenRate = 0.35f;
+    [Header("Stamina Info")]
+    [SerializeField] float currentStamina = 100.0f;
+    [SerializeField] bool sprinting = false;
+    [SerializeField] bool fullStamina = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +42,7 @@ public class StanleyMove : MonoBehaviour
     {
         updateData();
         updateMove();
+        updateStamina();
     }
 
     private void updateMove() {
@@ -53,12 +71,22 @@ public class StanleyMove : MonoBehaviour
             charControl.Move(direction*Time.deltaTime);
         }
 
-        if (Input.GetButtonDown("Sprint")) {
+        if (Input.GetButtonDown("Sprint") && currentStamina > 0) {
             movespeed*=1.5f;
+            sprinting = true;
         }
 
-        if (Input.GetButtonUp("Sprint")) {
+        if (Input.GetButtonUp("Sprint") && movespeed > 10) {
             movespeed/=1.5f;
+            sprinting = false;
+        }
+
+        if (currentStamina < 0) {
+            currentStamina = 0;
+            sprinting = false;
+            if (movespeed > 10) {
+                movespeed/=1.5f;
+            }
         }
     }
 
@@ -77,5 +105,27 @@ public class StanleyMove : MonoBehaviour
 
     private void groundCheck() {
         grounded = Physics.CheckSphere(gc.position, .2f, terrain);
+    }
+
+    private void updateStamina() {
+        updateUI();
+
+        if(sprinting) {
+            currentStamina -= sprintCost*Time.deltaTime;
+        } else if (!fullStamina) {
+            currentStamina += regenRate*Time.deltaTime;
+        }
+
+        if (currentStamina >= maxStamina) {
+            fullStamina = true;
+            canvas.alpha = 0;
+        } else {
+            fullStamina = false;
+            canvas.alpha = 1;
+        }
+    }
+
+    private void updateUI() {
+        staminaBar.fillAmount = (currentStamina/maxStamina);
     }
 }
