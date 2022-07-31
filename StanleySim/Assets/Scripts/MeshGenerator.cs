@@ -9,9 +9,15 @@ public class MeshGenerator : MonoBehaviour
     Vector3[] vertices;
     int[] triangles;
 
+    Color[] colors;
+    public Gradient gradient;
+
     //number of tiles in grid
     public int xSize = 100;
     public int zSize = 100; 
+
+    float minTerrainHeight = 1000;
+    float maxTerrainHeight = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -31,13 +37,22 @@ public class MeshGenerator : MonoBehaviour
         for(int i = 0, z = 0; z <= zSize; z++) {
             for(int x = 0; x <= xSize; x++) {
                 float rawHeight = Mathf.PerlinNoise(x * .1f, z * .1f);
-                float offsetHeight = Mathf.Max(0, (rawHeight) - 0.35f);
+                float offsetHeight = Mathf.Max(0, (rawHeight) - 0.4f);
                 float poweredHeight = offsetHeight * offsetHeight * offsetHeight * 15f;
                 float minBoundedHeight = Mathf.Min(poweredHeight, .7f + .2f*Mathf.PerlinNoise(x*.5f + 1000, z*.5f + 1000));
-                float roughHeight = minBoundedHeight + Mathf.PerlinNoise(x*.7f + 2000, z*.7f + 2000)*0.1f;
+                float roughHeight = 2f*minBoundedHeight + Mathf.PerlinNoise(x*.7f + 2000, z*.7f + 2000)*0.1f;
                 float height = roughHeight;
                 vertices[i] = new Vector3(x, height, z);
+
+                if(height > maxTerrainHeight) {
+                    maxTerrainHeight = height;
+                } else if (height < minTerrainHeight) {
+                    minTerrainHeight = height;
+                }
+
                 i++;
+
+
             }
         }
 
@@ -61,6 +76,17 @@ public class MeshGenerator : MonoBehaviour
             }
             vert++;
         }
+
+        colors = new Color[vertices.Length];
+
+        for(int i = 0, z = 0; z <= zSize; z++) {
+            for(int x = 0; x <= xSize; x++) {
+                float height = Mathf.InverseLerp(minTerrainHeight, maxTerrainHeight, vertices[i].y);
+                colors[i] = gradient.Evaluate(height);
+                i++;
+            }
+        }
+
     }
 
     void UpdateMesh()
@@ -69,12 +95,12 @@ public class MeshGenerator : MonoBehaviour
 
         mesh.vertices = vertices;
         mesh.triangles = triangles;
+        mesh.colors = colors;
 
         mesh.RecalculateNormals();
-        
-        // mesh collider
-        mesh.RecalculateBounds();
-        MeshCollider meshCollider = gameObject.GetComponent<MeshCollider>();
-        meshCollider.sharedMesh = mesh;
     }
+
+    
+    
+
 }
