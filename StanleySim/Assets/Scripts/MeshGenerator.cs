@@ -5,17 +5,21 @@ using UnityEngine;
 [RequireComponent(typeof(MeshFilter))]
 public class MeshGenerator : MonoBehaviour
 {
+    //initilize the mesh, as well as the triangles and verticies that will be used to construct the mesh
     Mesh mesh;
     Vector3[] vertices;
     int[] triangles;
 
+    //initilize the vertex color storage for procedural terrain coloring
     Color[] colors;
     public Gradient gradient;
 
-    //number of tiles in grid
+    //number of tiles in grid is 100
     public int xSize = 100;
     public int zSize = 100; 
 
+    //setting default values for the min and max terrain height
+    //these will be updated later when the terrain is generated
     float minTerrainHeight = 1000;
     float maxTerrainHeight = 0;
 
@@ -25,41 +29,59 @@ public class MeshGenerator : MonoBehaviour
         mesh = new Mesh();
         GetComponent<MeshFilter>().mesh = mesh;
 
+        //create the mesh
         CreateShape();
+
+        //update the mesh as the game runs
         UpdateMesh();
     }
 
     void CreateShape()
     {
 
+        //array contains all the vertices
         vertices = new Vector3[(xSize + 1) * (zSize + 1)];
 
+        //looping over all the vertices...
         for(int i = 0, z = 0; z <= zSize; z++) {
             for(int x = 0; x <= xSize; x++) {
+                //raw perlin noise
                 float rawHeight = Mathf.PerlinNoise(x * .1f, z * .1f);
+                //offsets the height in order to apply a non-linear transformation to it
                 float offsetHeight = Mathf.Max(0, (rawHeight) - 0.4f);
+                //raises the height to a power, which has the effect of exaggerating peaks and flattening low areas
                 float poweredHeight = offsetHeight * offsetHeight * offsetHeight * 15f;
+                //creates a minimum terrain height
                 float minBoundedHeight = Mathf.Min(poweredHeight, .7f + .2f*Mathf.PerlinNoise(x*.5f + 1000, z*.5f + 1000));
+                //adds texture to the terrain by adding an additional layer of perin noise at a higher frequency
                 float roughHeight = 2f*minBoundedHeight + Mathf.PerlinNoise(x*.7f + 2000, z*.7f + 2000)*0.1f;
                 float height = roughHeight;
+
+                //sets the current vertex
                 vertices[i] = new Vector3(x, height, z);
 
+                //updates the minimum and maximum height of the whole terrain based on the new vertex
                 if(height > maxTerrainHeight) {
                     maxTerrainHeight = height;
                 } else if (height < minTerrainHeight) {
                     minTerrainHeight = height;
                 }
 
+                //iterates vertex count
                 i++;
 
 
             }
         }
 
+        //number of vertices
         int vert = 0;
+        //number of triangles
         int tris = 0;
+        //array that contains all the triangles in the mesh
         triangles = new int[xSize * zSize * 6];
 
+        //for each vertex, the two adjacent triangles are added to the mesh
         for(int z = 0; z < zSize; z++) {
 
             for(int x = 0; x < xSize; x++) {
@@ -76,19 +98,25 @@ public class MeshGenerator : MonoBehaviour
             }
             vert++;
         }
-
+        
+        //array that stores all the colors of the vertices
         colors = new Color[vertices.Length];
 
+        //looping over all the vertices
         for(int i = 0, z = 0; z <= zSize; z++) {
             for(int x = 0; x <= xSize; x++) {
+                //normalizes height of vertex over the terrain height range
                 float height = Mathf.InverseLerp(minTerrainHeight, maxTerrainHeight, vertices[i].y);
+                //colors the vertex based on the gradient
                 colors[i] = gradient.Evaluate(height);
+                //increments the vertex count
                 i++;
             }
         }
 
     }
 
+    //updates to the mesh each frame
     void UpdateMesh()
     {
         mesh.Clear();
@@ -98,10 +126,14 @@ public class MeshGenerator : MonoBehaviour
         mesh.colors = colors;
 
         mesh.RecalculateNormals();
-        
+
         // mesh collider
         mesh.RecalculateBounds();
         MeshCollider meshCollider = gameObject.GetComponent<MeshCollider>();
         meshCollider.sharedMesh = mesh;
     }
+
+    
+    
+
 }
