@@ -6,10 +6,13 @@ public class StanleyMove : MonoBehaviour
 {
     float yvel;
     float offsetAng = 1.6f;
+    bool grounded = true;
     [SerializeField] float movespeed = 5f;
     [SerializeField] float jumpvel = 5f;
     [SerializeField] Transform cam;
     [SerializeField] CharacterController charControl;
+    [SerializeField] Transform gc;
+    [SerializeField] LayerMask terrain;
     float turnvel;
     // Start is called before the first frame update
     void Start()
@@ -20,9 +23,14 @@ public class StanleyMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        updateData();
+        updateMove();
+    }
+
+    private void updateMove() {
         yvel += Physics.gravity.y * Time.deltaTime;
 
-        if (Input.GetButtonDown("Jump")) {
+        if (Input.GetButtonDown("Jump") && grounded) {
             yvel = jumpvel;
         }
 
@@ -54,6 +62,10 @@ public class StanleyMove : MonoBehaviour
         }
     }
 
+    private void updateData() {
+        groundCheck();
+    }
+
     private void OnApplicationFocus(bool focus)
     {
         if (focus) {
@@ -61,5 +73,9 @@ public class StanleyMove : MonoBehaviour
         } else {
             Cursor.lockState = CursorLockMode.None;
         }
+    }
+
+    private void groundCheck() {
+        grounded = Physics.CheckSphere(gc.position, .2f, terrain);
     }
 }
