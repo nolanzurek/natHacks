@@ -61,9 +61,6 @@ public class MeshGenerator : MonoBehaviour
             }
             vert++;
         }
-
-        
-
     }
 
     void UpdateMesh()
@@ -74,9 +71,10 @@ public class MeshGenerator : MonoBehaviour
         mesh.triangles = triangles;
 
         mesh.RecalculateNormals();
+        
+        // mesh collider
+        mesh.RecalculateBounds();
+        MeshCollider meshCollider = gameObject.GetComponent<MeshCollider>();
+        meshCollider.sharedMesh = mesh;
     }
-
-    
-    
-
 }
