@@ -30,6 +30,7 @@ public class MeshGenerator : MonoBehaviour
 
     [SerializeField] GameObject normalTree;
     [SerializeField] GameObject deadTree;
+    [SerializeField] GameObject normalSheep;
 
     // Start is called before the first frame update
     void Start()
@@ -139,6 +140,8 @@ public class MeshGenerator : MonoBehaviour
                 float height = Mathf.InverseLerp(minTerrainHeight, maxTerrainHeight, vertices[i].y);
                 if (Random.Range(0f,100f) > 90) {
                     spawnTree(vertices[i]);
+                } else if (Random.Range(0f,100f) > 99) {
+                    spawnSheep(vertices[i]);
                 }
                 //colors the vertex based on the gradient
                 colors[i] = gradient.Evaluate(height);
@@ -185,7 +188,16 @@ public class MeshGenerator : MonoBehaviour
     void spawnTree(Vector3 vertex) {
         vertex.y += 0.5f;
         if (vertex.y/maxTerrainHeight > 0.95) {
-            Instantiate(deadTree, vertex, new Quaternion(0f,0f,0f,0f));
+            Instantiate(deadTree, vertex, deadTree.transform.rotation);
+        } else if (vertex.y/maxTerrainHeight < 0.05) {
+            Instantiate(normalTree, vertex, normalTree.transform.rotation);
+        }
+    }
+
+    void spawnSheep(Vector3 vertex) {
+        vertex.y += 0.5f;
+        if (vertex.y/maxTerrainHeight < 0.05) {
+            Instantiate(normalSheep, vertex, normalSheep.transform.rotation);
         }
     }
 }
