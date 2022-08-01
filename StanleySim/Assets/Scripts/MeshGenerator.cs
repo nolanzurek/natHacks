@@ -16,8 +16,8 @@ public class MeshGenerator : MonoBehaviour
     public Gradient gradient;
 
     //number of tiles in grid is 100
-    public int xSize = 100;
-    public int zSize = 100; 
+    public int xSize = 200;
+    public int zSize = 200; 
 
     //setting default values for the min and max terrain height
     //these will be updated later when the terrain is generated
@@ -68,7 +68,7 @@ public class MeshGenerator : MonoBehaviour
         for(int i = 0, z = 0; z <= zSize; z++) {
             for(int x = 0; x <= xSize; x++) {
                 //raw perlin noise
-                float rawHeight = Mathf.PerlinNoise(x * .1f, z * .1f);
+                float rawHeight = Mathf.PerlinNoise(x * .05f, z * .05f);
                 //offsets the height in order to apply a non-linear transformation to it
                 float offsetHeight = Mathf.Max(0, (rawHeight) - 0.4f);
                 //raises the height to a power, which has the effect of exaggerating peaks and flattening low areas
@@ -80,7 +80,7 @@ public class MeshGenerator : MonoBehaviour
                 float height = roughHeight*9f;
 
                 //sets the current vertex
-                vertices[i] = new Vector3(x*5, height, z*5);
+                vertices[i] = new Vector3(x*3, height, z*3);
 
                 //updates the minimum and maximum height of the whole terrain based on the new vertex
                 if(height > maxTerrainHeight) {
@@ -136,15 +136,16 @@ public class MeshGenerator : MonoBehaviour
         //looping over all the vertices
         for(int i = 0, z = 0; z <= zSize; z++) {
             for(int x = 0; x <= xSize; x++) {
-                //normalizes height of vertex over the terrain height range
-                float height = Mathf.InverseLerp(minTerrainHeight, maxTerrainHeight, vertices[i].y);
+
+                float slope = Mathf.Max(Mathf.Abs(vertices[i].y - vertices[i+1].y), Mathf.Abs(vertices[i].y - vertices[i+xSize].y));
+
                 if (Random.Range(0f,100f) > 90) {
                     spawnTree(vertices[i]);
                 } else if (Random.Range(0f,100f) > 99) {
                     spawnSheep(vertices[i]);
                 }
                 //colors the vertex based on the gradient
-                colors[i] = gradient.Evaluate(height);
+                colors[i] = gradient.Evaluate(slope/4);
                 //increments the vertex count
                 i++;
             }
