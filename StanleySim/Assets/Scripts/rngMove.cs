@@ -20,7 +20,7 @@ public class rngMove : MonoBehaviour
     void Update()
     {
         if (frame > 90) {
-            direction = new Vector3(Random.Range(-5,5), 0, Random.Range(-5,5)).normalized;
+            direction = new Vector3(Random.Range(-3,3), 0, Random.Range(-3,3));
             frame = 0;
         }
         float angle = (Mathf.Atan2(direction.x, direction.z)-offset)*Mathf.Rad2Deg;
