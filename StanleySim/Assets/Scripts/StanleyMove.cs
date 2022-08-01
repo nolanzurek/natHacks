@@ -104,7 +104,9 @@ public class StanleyMove : MonoBehaviour
     }
 
     private void groundCheck() {
-        grounded = Physics.CheckSphere(gc.position, .2f, terrain);
+        // grounded = Physics.CheckSphere(gc.position, .2f, terrain);
+        grounded = Physics.CheckBox(gc.position, new Vector3(0.25f,0.15f,0.25f), new Quaternion(0f,0f,0f,0f), terrain, QueryTriggerInteraction.UseGlobal);
+        // Debug.Log("Grounded: " + grounded);
     }
 
     private void updateStamina() {

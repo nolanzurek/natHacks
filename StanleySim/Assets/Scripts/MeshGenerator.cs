@@ -28,10 +28,12 @@ public class MeshGenerator : MonoBehaviour
     int[] sampleData = new int[] {1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 1, 2, 1, 1, 1, 1, 1, 2, 2};
     float[] sampleDataSmooth;
 
+    [SerializeField] GameObject normalTree;
+    [SerializeField] GameObject deadTree;
+
     // Start is called before the first frame update
     void Start()
     {
-
         sampleDataSmooth = new float[sampleData.Length];
 
         for(int i = 0; i < sampleData.Length; i++) {
@@ -74,10 +76,10 @@ public class MeshGenerator : MonoBehaviour
                 float minBoundedHeight = Mathf.Min(poweredHeight, .7f + .2f*Mathf.PerlinNoise(x*.5f + 1000, z*.5f + 1000));
                 //adds texture to the terrain by adding an additional layer of perin noise at a higher frequency
                 float roughHeight = 2f*minBoundedHeight + Mathf.PerlinNoise(x*.7f + 2000, z*.7f + 2000)*0.1f;
-                float height = roughHeight*3f;
+                float height = roughHeight*9f;
 
                 //sets the current vertex
-                vertices[i] = new Vector3(x, height, z);
+                vertices[i] = new Vector3(x*5, height, z*5);
 
                 //updates the minimum and maximum height of the whole terrain based on the new vertex
                 if(height > maxTerrainHeight) {
@@ -135,6 +137,9 @@ public class MeshGenerator : MonoBehaviour
             for(int x = 0; x <= xSize; x++) {
                 //normalizes height of vertex over the terrain height range
                 float height = Mathf.InverseLerp(minTerrainHeight, maxTerrainHeight, vertices[i].y);
+                if (Random.Range(0f,100f) > 90) {
+                    spawnTree(vertices[i]);
+                }
                 //colors the vertex based on the gradient
                 colors[i] = gradient.Evaluate(height);
                 //increments the vertex count
@@ -154,6 +159,7 @@ public class MeshGenerator : MonoBehaviour
         for(int i = 0, z = 0; z <= zSize; z++) {
             for(int x = 0; x <= xSize; x++) {
                 float displacementNoise = sampleDataSmooth[((int)(Time.frameCount/12))%(sampleDataSmooth.Length)];
+                // Debug.Log("verticies[i]: " + vertices[i].x + ", " + vertices[i].y + ", " + vertices[i].z);
                 heightTemp[i] = new Vector3(vertices[i].x, displacementNoise * vertices[i].y, vertices[i].z) + 
                 new Vector3(0, 5 * bumps[i].y * displacementNoise, 0);
                 i++;
@@ -176,5 +182,10 @@ public class MeshGenerator : MonoBehaviour
         UpdateMesh();
     }
     
-
+    void spawnTree(Vector3 vertex) {
+        vertex.y += 0.5f;
+        if (vertex.y/maxTerrainHeight > 0.95) {
+            Instantiate(deadTree, vertex, new Quaternion(0f,0f,0f,0f));
+        }
+    }
 }

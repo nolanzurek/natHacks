@@ -349,8 +349,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36d452225ea1f9e4a9a246d000ee44b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gradient:
+    serializedVersion: 2
+    key0: {r: 0.38744515, g: 0.5566038, b: 0.32293522, a: 1}
+    key1: {r: 0.11195251, g: 0.24321124, b: 0.11107598, a: 1}
+    key2: {r: 0.097187616, g: 0.2264151, b: 0.09972148, a: 1}
+    key3: {r: 0.1525488, g: 0.23750249, b: 0.12913792, a: 1}
+    key4: {r: 0.30237287, g: 0.2675083, b: 0.20874771, a: 0}
+    key5: {r: 0.35741174, g: 0.27853113, b: 0.2379929, a: 0}
+    key6: {r: 0.38679248, g: 0.28441533, b: 0.2536045, a: 0}
+    key7: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 0}
+    ctime0: 0
+    ctime1: 18311
+    ctime2: 22745
+    ctime3: 27949
+    ctime4: 36237
+    ctime5: 42020
+    ctime6: 49344
+    ctime7: 65535
+    atime0: 0
+    atime1: 41249
+    atime2: 65535
+    atime3: 59174
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 8
+    m_NumAlphaKeys: 3
   xSize: 100
   zSize: 100
+  normalTree: {fileID: 5433308347438600252, guid: 16afb81850cf9bd46975e0b7faa51c92, type: 3}
+  deadTree: {fileID: 8428692556957118673, guid: 7fb34e3b38291b44fa4595b671503e5f, type: 3}
 --- !u!23 &283131524
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -371,7 +402,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d58146631449e2849ac5bd60b91069f4, type: 2}
+  - {fileID: 2100000, guid: 469052fa8320a684b8249014ed47a5fa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -567,6 +598,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705507995}
   - component: {fileID: 705507994}
+  - component: {fileID: 705507996}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -651,6 +683,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &705507996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &798974285
 GameObject:
   m_ObjectHideFlags: 0
@@ -920,7 +972,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.5336976, y: 1}
+    m_SensorSize: {x: 1.0418943, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1095,7 +1147,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.5336976, y: 1}
+    m_SensorSize: {x: 1.0418943, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1308,7 +1360,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.5336976, y: 1}
+    m_SensorSize: {x: 1.0418943, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1544,7 +1596,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.5336976, y: 1}
+    m_SensorSize: {x: 1.0418943, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -1560,7 +1612,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2089921857}
-  m_LocalRotation: {x: 0.19424808, y: -0.000000016878642, z: 0.0000000033423064, w: 0.98095244}
+  m_LocalRotation: {x: 0.19424808, y: 0.000000016878642, z: -0.0000000033423064, w: 0.98095244}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1709,7 +1761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdfcd25f6a728bc4a9918a391a78cb46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movespeed: 10
+  movespeed: 8
   jumpvel: 6
   cam: {fileID: 963194228}
   charControl: {fileID: 8779602774808664114}
@@ -1720,8 +1772,8 @@ MonoBehaviour:
   staminaBar: {fileID: 1400214901}
   canvas: {fileID: 1666020251}
   maxStamina: 100
-  sprintCost: 30
-  regenRate: 55
+  sprintCost: 20
+  regenRate: 45
   currentStamina: 100
   sprinting: 0
   fullStamina: 0
