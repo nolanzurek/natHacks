@@ -1,516 +1,322 @@
 ﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 0, "tid": 1, "ts": 1659364256000415, "dur": 18927354, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659364256002107, "dur": 44676, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659364256047085, "dur": 47729, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659364256094850, "dur": 934009, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659364257028860, "dur": 17888502, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659364274917390, "dur": 10378, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659364276319936, "dur": 10998191, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659364276319957, "dur": 21526, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659364276341485, "dur": 49338, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659364276390826, "dur": 558544, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659364276949371, "dur": 10359025, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659364287308399, "dur": 9728, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659364295020963, "dur": 822564, "ph": "X", "name": "Build Player", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659364295021272, "dur": 2781, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659364295024056, "dur": 48327, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659364295072385, "dur": 285498, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659364295357885, "dur": 475760, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659364295833647, "dur": 9880, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659364295843944, "dur": 34, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
-{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
-{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
-{ "pid": 35942, "tid": 1, "ts": 1659364295208987, "dur": 129296, "ph": "X", "name": "BuildProgram", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1659364295210185, "dur": 54793, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1659364295319609, "dur": 5358, "ph": "X", "name": "OutputData.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1659364295324970, "dur": 13304, "ph": "X", "name": "Backend.Write", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1659364295325776, "dur": 11506, "ph": "X", "name": "JsonToString", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1659364295343522, "dur": 1521, "ph": "X", "name": "", "args": {} },
-{ "pid": 35942, "tid": 1, "ts": 1659364295342516, "dur": 2553, "ph": "X", "name": "Write chrome-trace events", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659364295844089, "dur": 2627, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659367298297697, "dur": 2817527, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659367298299737, "dur": 90865, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659367298390934, "dur": 2714243, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659367301105204, "dur": 10018, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659367301464969, "dur": 1830886, "ph": "X", "name": "Build ScriptAssembliesAndTypeDB", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659367301464989, "dur": 41282, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659367301506272, "dur": 1779645, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659367303285919, "dur": 9935, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659367308389368, "dur": 547954, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659367308389649, "dur": 19568, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659367308409219, "dur": 514346, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659367308923567, "dur": 13753, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659367308938552, "dur": 77, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1659364295396027, "dur":14388, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659364295410423, "dur":82, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659364295410559, "dur":338, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659364295410938, "dur":601, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659364295411541, "dur":405338, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659364295816880, "dur":166, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659364295817164, "dur":1973, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1659364295411816, "dur":4171, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1659364295428948, "dur":705, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1659364295429919, "dur":3814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1659364295433736, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1659364295433841, "dur":1153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1659364295435054, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1659364295436044, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":1, "ts":1659364295437415, "dur":1603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":1, "ts":1659364295439074, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":1, "ts":1659364295439489, "dur":3136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":1, "ts":1659364295442683, "dur":2746, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\mscorlib.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295442681, "dur":2748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295445676, "dur":61957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295507645, "dur":213, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295507644, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295507866, "dur":4556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295512432, "dur":133, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\netstandard.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295512431, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295512572, "dur":2749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295515333, "dur":178, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\clipper_library.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295515332, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/clipper_library.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295515518, "dur":2369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/clipper_library.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295517900, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.Cecil.Rocks.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295517899, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295518021, "dur":2002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295520034, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.Cecil.Mdb.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295520033, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295520167, "dur":2345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295522523, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295522522, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295522632, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295524560, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295524559, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295524672, "dur":1877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295526560, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295526559, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295526668, "dur":1835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295528515, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295528514, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295528622, "dur":1901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295530533, "dur":231, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295530532, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295530771, "dur":5109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295535894, "dur":413, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295535893, "dur":415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295536315, "dur":8087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295544413, "dur":242, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295544411, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295544663, "dur":5439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295550112, "dur":101, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipelines.Universal.Shaders.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295550111, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295550220, "dur":1950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295552183, "dur":167, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295552182, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295552357, "dur":17938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295570307, "dur":141, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295570305, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295570456, "dur":15082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295585560, "dur":132, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295585559, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295585700, "dur":14914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295600628, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295600627, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295600765, "dur":15627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295616403, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295616402, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295616539, "dur":14912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295631463, "dur":127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295631462, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295631599, "dur":14478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295646090, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295646089, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295646240, "dur":18964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295665215, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295665214, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295665360, "dur":25658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295691033, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295691032, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295691175, "dur":15154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295706342, "dur":118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295706340, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295706468, "dur":14527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295721012, "dur":133, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295721011, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295721153, "dur":14590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295735755, "dur":227, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295735754, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295735991, "dur":14914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295750917, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295750915, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295751039, "dur":20008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295771060, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295771059, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295771178, "dur":19107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1659364295790313, "dur":1345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/level0.resS" }}
-,{ "pid":12345, "tid":1, "ts":1659364295791686, "dur":3379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":1, "ts":1659364295795076, "dur":21809, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659364295412003, "dur":4038, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1659364295416041, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1659364295431501, "dur":2418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1659364295433978, "dur":180, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1659364295433976, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1659364295434165, "dur":2308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1659364295436533, "dur":166, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1659364295436531, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1659364295436708, "dur":2183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":2, "ts":1659364295438948, "dur":514, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":2, "ts":1659364295438947, "dur":515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim.exe" }}
-,{ "pid":12345, "tid":2, "ts":1659364295439468, "dur":8287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim.exe" }}
-,{ "pid":12345, "tid":2, "ts":1659364295447768, "dur":1705, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\System.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295447767, "dur":1707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295449517, "dur":33299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295482827, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\System.Numerics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295482826, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295482998, "dur":3214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295486225, "dur":151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\System.Net.Http.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295486224, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295486383, "dur":3154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295489548, "dur":191, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295489547, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295489747, "dur":3140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295492897, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295492896, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295493025, "dur":2286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295495322, "dur":1312, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\System.Data.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295495321, "dur":1314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295496641, "dur":28852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295525508, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295525507, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295525631, "dur":2091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295527734, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295527733, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295527844, "dur":1900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295529761, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295529760, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295529877, "dur":2110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295531998, "dur":201, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Cinemachine.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295531997, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295532205, "dur":4466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295536685, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295536684, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295536819, "dur":2083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295538912, "dur":202, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295538911, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295539121, "dur":4378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295543509, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295543508, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295543620, "dur":2108, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295545740, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295545739, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295545868, "dur":2211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295548090, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295548089, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295548205, "dur":1975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295550190, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295550189, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295550300, "dur":2025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295552336, "dur":133, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295552334, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295552476, "dur":15937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295568429, "dur":131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295568427, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295568569, "dur":16171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295584752, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295584750, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295584896, "dur":15685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295600595, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295600593, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295600727, "dur":15316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295616054, "dur":702, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295616053, "dur":703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295616784, "dur":30985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295647781, "dur":118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295647780, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295647906, "dur":14794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295662713, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295662711, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295662843, "dur":18479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295681333, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295681332, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295681465, "dur":16967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295698444, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295698443, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295698562, "dur":16713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295715287, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295715285, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295715410, "dur":22743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295738165, "dur":659, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295738164, "dur":661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295738852, "dur":29654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295768517, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295768516, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295768640, "dur":16474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1659364295785129, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1659364295785128, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1659364295785255, "dur":1675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":2, "ts":1659364295786944, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":2, "ts":1659364295786943, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":2, "ts":1659364295787073, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":2, "ts":1659364295788217, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1659364295789277, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/resources.assets" }}
-,{ "pid":12345, "tid":2, "ts":1659364295790593, "dur":1215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/level0" }}
-,{ "pid":12345, "tid":2, "ts":1659364295791836, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":2, "ts":1659364295793799, "dur":23081, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659364295411946, "dur":4179, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1659364295416135, "dur":191, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1659364295416125, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1659364295431393, "dur":2359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1659364295433811, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1659364295434826, "dur":1156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":3, "ts":1659364295436045, "dur":174, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":3, "ts":1659364295436043, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1659364295436240, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1659364295437611, "dur":510, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295437609, "dur":513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295438499, "dur":23300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295461908, "dur":2226, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\System.Xml.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295461862, "dur":2272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295464142, "dur":42277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295506430, "dur":172, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\System.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295506428, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295506609, "dur":3212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295509832, "dur":223, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Mono.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295509831, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295510063, "dur":4435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295514508, "dur":104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\System.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295514507, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295514619, "dur":2003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295516633, "dur":134, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295516631, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295516775, "dur":2662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295519448, "dur":286, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.Cecil.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295519447, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Burst.Cecil.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295519740, "dur":5783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Burst.Cecil.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295525535, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295525534, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295525645, "dur":1901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295527557, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295527556, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295527672, "dur":1860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295529544, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295529543, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295529656, "dur":2001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295531672, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295531670, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295531780, "dur":3547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295535337, "dur":409, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295535336, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295535754, "dur":10353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295546117, "dur":259, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295546116, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295546383, "dur":6044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295552440, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295552439, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295552570, "dur":16027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295568609, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295568607, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295568746, "dur":15923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295584683, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295584681, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295584828, "dur":15851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295600690, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295600689, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295600813, "dur":15092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295615918, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295615917, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295616065, "dur":15719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295631796, "dur":131, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295631795, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295631934, "dur":14952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295646897, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295646896, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295647019, "dur":15751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295662781, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295662780, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295662907, "dur":17840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295680760, "dur":163, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295680759, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295680932, "dur":22655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295703599, "dur":318, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295703598, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295703926, "dur":16999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295720937, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295720936, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295721067, "dur":15988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295737067, "dur":170, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295737065, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295737246, "dur":21690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295758947, "dur":173, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295758946, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295759127, "dur":19067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295778206, "dur":135, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\Data\\Plugins\\x86_64\\lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295778205, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295778784, "dur":2118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":3, "ts":1659364295780914, "dur":317, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Assets\\StreamingAssets\\UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":3, "ts":1659364295780913, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":3, "ts":1659364295781583, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":3, "ts":1659364295782588, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":3, "ts":1659364295783941, "dur":11098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":3, "ts":1659364295795052, "dur":21831, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659364295412108, "dur":3931, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1659364295416053, "dur":215, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":4, "ts":1659364295416040, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1659364295431680, "dur":2303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1659364295434054, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1659364295434156, "dur":2560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1659364295436778, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1659364295436837, "dur":1775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1659364295438678, "dur":19334, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":4, "ts":1659364295438677, "dur":19336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":4, "ts":1659364295458022, "dur":358766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295412233, "dur":3786, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1659364295416020, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1659364295431743, "dur":2132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":5, "ts":1659364295433965, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1659364295434103, "dur":2282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1659364295436441, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1659364295436501, "dur":2169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":5, "ts":1659364295438728, "dur":1029, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":5, "ts":1659364295438726, "dur":1032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":5, "ts":1659364295439764, "dur":23259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":5, "ts":1659364295463082, "dur":169, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295463080, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295463260, "dur":3925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295467198, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\System.Transactions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295467197, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295467329, "dur":2302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295469643, "dur":199, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295469642, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295469850, "dur":4361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295474223, "dur":265, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\System.Security.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295474222, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295474495, "dur":5278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295479784, "dur":491, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295479783, "dur":493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295480284, "dur":12088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295492384, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295492383, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295492501, "dur":1898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295494410, "dur":305, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\System.Drawing.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295494409, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295494722, "dur":7875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295502609, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295502608, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295502731, "dur":2147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295504891, "dur":727, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\System.Core.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295504890, "dur":728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295505625, "dur":14300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295519936, "dur":160, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.Cecil.Pdb.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295519935, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295520103, "dur":2854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295522967, "dur":395, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295522966, "dur":396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295523369, "dur":11687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295535072, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295535071, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295535199, "dur":1871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295537080, "dur":283, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295537079, "dur":285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295537371, "dur":6083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295543465, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295543464, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295543595, "dur":2656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295546264, "dur":159, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295546263, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295546430, "dur":3367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295549816, "dur":364, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipelines.Universal.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295549815, "dur":365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295550187, "dur":8230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295558430, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295558429, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295558564, "dur":19143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295577720, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295577719, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295577846, "dur":15004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295592862, "dur":118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295592861, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295592987, "dur":15127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295608125, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295608124, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295608249, "dur":14789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295623050, "dur":189, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295623048, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295623246, "dur":16540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295639797, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295639796, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295639917, "dur":16258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295656187, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295656185, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295656311, "dur":19746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295676071, "dur":154, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295676069, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295676233, "dur":17098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295693344, "dur":152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295693343, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295693529, "dur":16454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295709994, "dur":181, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295709993, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295710182, "dur":16858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295727052, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295727051, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295727170, "dur":15518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295742700, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295742699, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295742824, "dur":16065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295758902, "dur":133, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295758900, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295759044, "dur":14470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295773525, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295773524, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295773653, "dur":18742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1659364295792423, "dur":1283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":5, "ts":1659364295793722, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":5, "ts":1659364295793721, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/boot.config" }}
-,{ "pid":12345, "tid":5, "ts":1659364295793844, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/boot.config" }}
-,{ "pid":12345, "tid":5, "ts":1659364295795037, "dur":21845, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659364295412362, "dur":3630, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1659364295416004, "dur":231, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1659364295415995, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1659364295431342, "dur":2469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1659364295433880, "dur":183, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":6, "ts":1659364295433878, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1659364295434177, "dur":2719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1659364295436962, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":6, "ts":1659364295437020, "dur":1351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":6, "ts":1659364295438436, "dur":5748, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295438434, "dur":5751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295444208, "dur":111163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295555435, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295555434, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295555607, "dur":17054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295572674, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295572673, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295572809, "dur":15571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295588391, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295588390, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295588509, "dur":14651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295603172, "dur":151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295603171, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295603331, "dur":16112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295619454, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295619453, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295619626, "dur":15066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295634703, "dur":177, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295634702, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295634888, "dur":16047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295650947, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295650946, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295651065, "dur":18357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295669434, "dur":112, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295669433, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295669553, "dur":18808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295688372, "dur":190, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295688371, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295688573, "dur":18260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295706844, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295706843, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295706973, "dur":15884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295722868, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295722867, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295722985, "dur":15179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295738177, "dur":155, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295738176, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295738340, "dur":14382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295752733, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295752732, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295752871, "dur":15067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295767950, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295767949, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295768105, "dur":15340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1659364295783471, "dur":19542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1659364295803026, "dur":13858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1659364295821084, "dur":1956, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1659364295846788, "dur": 711, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1659364295843934, "dur": 3601, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+,{ "pid":12345, "tid":0, "ts":1659367308454894, "dur":7902, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659367308462808, "dur":142, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659367308463024, "dur":354, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659367308463429, "dur":633, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659367308464064, "dur":428217, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659367308892282, "dur":117, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659367308892489, "dur":2133, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1659367308464331, "dur":9971, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659367308475553, "dur":3669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1659367308479225, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1659367308479382, "dur":1863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1659367308481310, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1659367308482546, "dur":1643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1659367308484255, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1659367308484386, "dur":2212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1659367308486659, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1659367308486761, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659367308487491, "dur":24180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1659367308511778, "dur":44797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308556597, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659367308556696, "dur":2314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308559060, "dur":8206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308567285, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659367308567393, "dur":4549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308571989, "dur":2063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308574098, "dur":2619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308576761, "dur":9787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308586560, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308586559, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308586687, "dur":288, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659367308586984, "dur":2173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308589171, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308589170, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308589312, "dur":2027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308591351, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308591349, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308591488, "dur":2323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308593823, "dur":201, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308593822, "dur":203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308594054, "dur":4437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308598502, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308598501, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308598663, "dur":2029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308600702, "dur":206, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308600701, "dur":207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308600909, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1659367308600995, "dur":4454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308605460, "dur":104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308605459, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308605594, "dur":1779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308607383, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308607382, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308607516, "dur":1803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308609332, "dur":150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308609331, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308609510, "dur":2968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308612488, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308612487, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308612630, "dur":3233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308615908, "dur":16830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308632785, "dur":16527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308649383, "dur":16424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308665854, "dur":16978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308682885, "dur":18587, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308701520, "dur":14921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308716488, "dur":15839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308732381, "dur":17334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308749789, "dur":15848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308765683, "dur":15464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308781193, "dur":15514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308796753, "dur":15201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308812066, "dur":15608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308827727, "dur":17898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308845678, "dur":20945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1659367308866636, "dur":25633, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659367308464622, "dur":9691, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659367308474314, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1659367308477548, "dur":2778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1659367308480394, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":2, "ts":1659367308480392, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1659367308480514, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659367308480662, "dur":2436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1659367308483159, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1659367308483286, "dur":1924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1659367308485271, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659367308485269, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659367308485411, "dur":144032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659367308629580, "dur":18204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659367308647841, "dur":16153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659367308664051, "dur":14862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659367308678967, "dur":18579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659367308697602, "dur":18776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659367308716425, "dur":16170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659367308732648, "dur":17961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659367308750668, "dur":18128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659367308768818, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659367308768879, "dur":16873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659367308785822, "dur":16511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659367308802382, "dur":30057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659367308832492, "dur":14962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1659367308847521, "dur":2170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1659367308849727, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1659367308849798, "dur":15227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1659367308865097, "dur":1747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1659367308866855, "dur":25445, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659367308464461, "dur":9902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659367308474380, "dur":168, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1659367308474372, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1659367308474549, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659367308478213, "dur":2198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1659367308480473, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1659367308480471, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1659367308480657, "dur":2799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1659367308483522, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1659367308483649, "dur":357, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659367308484016, "dur":1859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1659367308485936, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1659367308485934, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1659367308486072, "dur":35792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1659367308521997, "dur":4428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308526490, "dur":2461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308529000, "dur":4609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308533664, "dur":6299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308540020, "dur":12665, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308552751, "dur":3175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308555978, "dur":3544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308559574, "dur":27084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308586670, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308586669, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308586780, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659367308586983, "dur":2005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308588999, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308588998, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308589205, "dur":2215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308591431, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308591430, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308591590, "dur":3781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308595382, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308595381, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308595522, "dur":1934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308597467, "dur":336, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308597466, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308597834, "dur":8283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308606128, "dur":250, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308606127, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308606408, "dur":5553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308611972, "dur":368, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308611971, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308612378, "dur":8123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308620554, "dur":18641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308639245, "dur":17322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308656623, "dur":16481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308673155, "dur":16414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308689624, "dur":21359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308711040, "dur":17579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308728673, "dur":17552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308746275, "dur":17277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308763603, "dur":15065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308778722, "dur":16536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308795318, "dur":17985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308813351, "dur":15896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308829295, "dur":18107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1659367308847414, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Assets\\StreamingAssets\\UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1659367308847413, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1659367308847499, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1659367308848067, "dur":1286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":3, "ts":1659367308849413, "dur":23670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1659367308873098, "dur":19174, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659367308464762, "dur":9591, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659367308474354, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1659367308474524, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659367308479061, "dur":1753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1659367308480879, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1659367308481030, "dur":2990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1659367308484109, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1659367308484349, "dur":1810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1659367308486262, "dur":9331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim.exe" }}
+,{ "pid":12345, "tid":4, "ts":1659367308495909, "dur":65750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308561725, "dur":16516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308578281, "dur":2806, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659367308581121, "dur":4052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308585185, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308585184, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308585328, "dur":3226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308588566, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308588565, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308588706, "dur":1921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308590639, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308590638, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308590772, "dur":2796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308593581, "dur":111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308593580, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308593723, "dur":1780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308595515, "dur":410, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308595514, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308595954, "dur":14539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308610505, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308610504, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308610648, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308612764, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308612763, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308612908, "dur":1923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308614882, "dur":15887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308630839, "dur":17774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308648664, "dur":17529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308666216, "dur":327, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659367308666552, "dur":14967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308681570, "dur":16717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308698335, "dur":15652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308714009, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659367308714108, "dur":16468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308730767, "dur":17862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308748735, "dur":19435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308768230, "dur":16215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308784493, "dur":15892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308800438, "dur":16841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308817329, "dur":16794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308834171, "dur":17973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1659367308852156, "dur":412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1659367308852569, "dur":1242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1659367308853822, "dur":3061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1659367308856957, "dur":3351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1659367308860373, "dur":6117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1659367308866502, "dur":25769, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659367308464895, "dur":9438, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659367308474350, "dur":171, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":5, "ts":1659367308474334, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1659367308477544, "dur":2820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1659367308480428, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1659367308480532, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1659367308480665, "dur":2705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1659367308483438, "dur":144, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1659367308483437, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1659367308483639, "dur":2143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1659367308485850, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659367308485848, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1659367308486014, "dur":406167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308465029, "dur":9282, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659367308474327, "dur":172, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1659367308474314, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1659367308477221, "dur":2752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1659367308480037, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1659367308480770, "dur":1390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1659367308482221, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":6, "ts":1659367308482219, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1659367308482332, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659367308482438, "dur":1891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1659367308484396, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.1.11f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308484394, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308484818, "dur":25335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308510285, "dur":44468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308554803, "dur":3111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308557961, "dur":2198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308560202, "dur":2223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308562475, "dur":3259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308565781, "dur":4755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308570584, "dur":2747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308573427, "dur":2476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/clipper_library.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308575953, "dur":1996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308577994, "dur":2919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308580956, "dur":1756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308582755, "dur":9626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308592500, "dur":502, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308592493, "dur":510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308593034, "dur":5720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308598767, "dur":304, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308598766, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308599105, "dur":6097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308605214, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308605213, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308605371, "dur":2319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308607703, "dur":262, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"F:\\natHacks\\StanleySim\\Temp\\StagingArea\\Data\\Managed\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308607702, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308607994, "dur":5834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308613873, "dur":18053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308631974, "dur":17929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308649952, "dur":15606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308665608, "dur":17212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308682870, "dur":30735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308713653, "dur":15705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308729385, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1659367308729446, "dur":16490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308745988, "dur":17552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308763595, "dur":16479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308780122, "dur":18531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308798698, "dur":15534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308814293, "dur":15561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308829927, "dur":17379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308847318, "dur":145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\Data\\Plugins\\x86_64\\lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308847317, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308847970, "dur":2344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1659367308850376, "dur":1707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1659367308852098, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1659367308852096, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1659367308852250, "dur":2400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1659367308854737, "dur":3521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1659367308858322, "dur":2711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1659367308861119, "dur":4738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1659367308865871, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1659367308865870, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles F:/natHacks/StanlEEG/Stanley Sim_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1659367308866021, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"F:/natHacks/StanlEEG/Stanley Sim_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1659367308867446, "dur":24822, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1659367308896446, "dur":1371, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1659367308938819, "dur": 15059, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1659367308938526, "dur": 15501, "ph": "X", "name": "Write chrome-trace events", "args": {} },

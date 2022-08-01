@@ -14,13 +14,16 @@ public class rngMove : MonoBehaviour
     void Start()
     {
         charControl = GetComponent<CharacterController>();
+        direction = new Vector3(Random.Range(-3,3), 0, Random.Range(-3,3));
     }
 
     // Update is called once per frame
     void Update()
     {
         if (frame > 90) {
-            direction = new Vector3(Random.Range(-3,3), 0, Random.Range(-3,3));
+            if (Random.Range(0,100) > 50) {
+                direction = new Vector3(Random.Range(-3,3), 0, Random.Range(-3,3));
+            }
             frame = 0;
         }
         float angle = (Mathf.Atan2(direction.x, direction.z)-offset)*Mathf.Rad2Deg;
