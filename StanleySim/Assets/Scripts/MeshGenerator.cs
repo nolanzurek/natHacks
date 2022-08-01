@@ -153,7 +153,9 @@ public class MeshGenerator : MonoBehaviour
 
         for(int i = 0, z = 0; z <= zSize; z++) {
             for(int x = 0; x <= xSize; x++) {
-                heightTemp[i] = vertices[i] + (bumps[i] * sampleDataSmooth[((int)(Time.frameCount/12))%(sampleDataSmooth.Length)] * 4);
+                float displacementNoise = sampleDataSmooth[((int)(Time.frameCount/12))%(sampleDataSmooth.Length)];
+                heightTemp[i] = new Vector3(vertices[i].x, displacementNoise * vertices[i].y, vertices[i].z) + 
+                new Vector3(0, 5 * bumps[i].y * displacementNoise, 0);
                 i++;
             }
         }
